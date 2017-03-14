@@ -1,0 +1,13 @@
+{
+  "name":"if-else",
+  "version": "0.1.0",
+  "license": "MIT",
+  "dependencies": {
+    "aurelia-bootstrapper": "^2.1.1"
+  },
+  "devDependencies": {
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.2",
+    "aurelia-webpack-plugin": "^2.0.0-rc.1"
+  }
+}

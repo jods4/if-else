@@ -1,0 +1,15 @@
+<template>
+  <require from="if2"></require>
+  <h2>If-else concept</h2>
+  <div>
+    <label>
+      <input type="checkbox" checked.bind="flag"> Is true? ${flag}
+    </label>
+  </div>
+  <div if2.bind="flag">
+    THIS IS THE TRUE SECTION (IF)
+  </div>
+  <div else>
+    THIS IS THE FALSE SECTION (ELSE)
+  </div>
+</template>
